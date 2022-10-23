@@ -1,25 +1,21 @@
 import React from 'react';
 import {Route, Routes} from "react-router-dom";
-import routes from "./index";
-import VocabularyPage from "../../containers/vocabulary/pages/VocabularyPage";
-import VocabularyLecturePage from "../../containers/vocabulary/pages/VocabularyLecturePage";
-import VocabularyNounsPage from "../../containers/vocabulary/pages/VocabularyNounsPage";
-import HomePage from "../pages/HomePage";
-import VocabularyAdjectivesPage from "../../containers/vocabulary/pages/VocabularyAdjectivesPage";
+import LecturesIndexPage from "../../lectures/pages/LecturesIndexPage";
+import LecturesDetailPage from "../../lectures/pages/LecturesDetailPage";
+import LecturesNounsPage from "../../lectures/pages/LecturesNounsPage";
+import LecturesAdjectivesPage from "../../lectures/pages/LecturesAdjectivesPage";
+import LecturesVerbsPage from "../../lectures/pages/LecturesVerbsPage";
 
 const AppRouter = () => {
     return (
         <Routes>
             <Route path={"/"}>
-                <Route index element={<HomePage/>}/>
-                <Route path={routes.VERBS} element={<h1>VERBS</h1>}/>
-                <Route path={routes.VOCABULARY}>
-                    <Route index element={<VocabularyPage/>}/>
-                    <Route path={":lecture"}>
-                        <Route index element={<VocabularyLecturePage/>}/>
-                        <Route path={"nouns"} element={<VocabularyNounsPage/>}/>
-                        <Route path={"adjectives"} element={<VocabularyAdjectivesPage/>}/>
-                    </Route>
+                <Route index element={<LecturesIndexPage/>}/>
+                <Route path={":lecture"}>
+                    <Route index element={<LecturesDetailPage/>}/>
+                    <Route path={"nouns"} element={<LecturesNounsPage/>}/>
+                    <Route path={"adjectives"} element={<LecturesAdjectivesPage/>}/>
+                    <Route path={"verbs"} element={<LecturesVerbsPage/>}/>
                 </Route>
             </Route>
         </Routes>

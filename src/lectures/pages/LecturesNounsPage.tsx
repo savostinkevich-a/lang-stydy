@@ -1,18 +1,18 @@
 import React, {useState} from 'react';
 import {useNavigate, useParams} from "react-router-dom";
-import AppLayout from "../../../ship/layout/AppLayout";
-import data from "../data";
-import VocabularyNounsQuiz from "../views/Nouns/VocabularyNounsQuiz";
-import VocabularyProvider from "../context/VocabularyContext";
-import VocabularyNounsLearn from "../views/Nouns/VocabularyNounsLearn";
-import VocabularyMode from "../views/VocabularyMode";
+import AppLayout from "../../ship/layout/AppLayout";
+import NounsQuizView from "../../containers/nouns/views/NounsQuizView";
+import VocabularyProvider from "../context/LecturesContext";
+import VocabularyNounsLearn from "../../containers/nouns/views/NounsLearnView";
+import LectureMode from "../views/LectureMode";
 import {Box, Button} from "@mui/material";
-import routes from "../../../ship/routes";
+import lectures from "../data";
 
-const VocabularyNounsPage = () => {
+const LecturesNounsPage = () => {
 
     const {lecture} = useParams()
-    const currentLecture = data.lectures.find(lect => lect.lectureIndex === Number(lecture))
+    const currentLecture = lectures[Number(lecture)]
+
     const [mode, setMode] = useState<"learn" | "practice" | null>(null)
     const navigate = useNavigate()
 
@@ -28,7 +28,7 @@ const VocabularyNounsPage = () => {
                 }}
             >
                 <Button
-                    onClick={() => navigate(`${routes.VOCABULARY}/${lecture}`)}
+                    onClick={() => navigate(`/${lecture}`)}
                 >
                     Zwrócić
                 </Button>
@@ -36,8 +36,8 @@ const VocabularyNounsPage = () => {
 
             <VocabularyProvider>
                 <>
-                    {mode === null && <VocabularyMode setMode={setMode}/>}
-                    {mode === "practice" && <VocabularyNounsQuiz nouns={currentLecture.nouns} lectureIndex={currentLecture.lectureIndex}/>}
+                    {mode === null && <LectureMode setMode={setMode}/>}
+                    {mode === "practice" && <NounsQuizView nouns={currentLecture.nouns} lectureIndex={Number(lecture)}/>}
                     {mode === "learn" && <VocabularyNounsLearn nouns={currentLecture.nouns}/>}
                 </>
             </VocabularyProvider>
@@ -45,4 +45,4 @@ const VocabularyNounsPage = () => {
     );
 };
 
-export default VocabularyNounsPage;
+export default LecturesNounsPage;

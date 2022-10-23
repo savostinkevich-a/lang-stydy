@@ -1,14 +1,10 @@
 import React, {FC, useEffect, useState} from 'react';
-import INoun, {WordGender} from "../../models/INoun";
-import Progress from "../../../../ship/components/Progress/Progress";
-import WordBox from "../../components/WordBox/WordBox";
-import UserAnswerInput from "../../../../ship/components/UserAnswerInput/UserAnswerInput";
-import AnswerButtonBox from "../../components/AnswerButtonsBox/AnswerButtonBox";
-import {useVocabularyContext} from "../../context/VocabularyContext";
-import VocabularyResults from "../VocabularyResults";
-import IAdjective from "../../models/IAdjective";
+import WordBox from "../../../lectures/components/WordBox/WordBox";
+import AnswerButtonBox from "../../../lectures/components/AnswerButtonsBox/AnswerButtonBox";
+import {useVocabularyContext} from "../../../lectures/context/LecturesContext";
+import IAdjective from "../models/IAdjective";
 
-const VocabularyAdjectivesLearn: FC<TVocabularyAdjectivesLearn> = (
+const AdjectivesLearnView: FC<TAdjectivesLearnView> = (
     {
         adjectives
     }) => {
@@ -57,8 +53,8 @@ const VocabularyAdjectivesLearn: FC<TVocabularyAdjectivesLearn> = (
     );
 };
 
-type TVocabularyAdjectivesLearn = {
+type TAdjectivesLearnView = {
     adjectives: Array<IAdjective>
 }
 
-export default VocabularyAdjectivesLearn;
+export default AdjectivesLearnView;

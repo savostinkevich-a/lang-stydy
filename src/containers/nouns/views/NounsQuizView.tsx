@@ -1,13 +1,13 @@
 import React, {FC, useEffect, useState} from 'react';
-import INoun from "../../models/INoun";
-import Progress from "../../../../ship/components/Progress/Progress";
-import WordBox from "../../components/WordBox/WordBox";
-import UserAnswerInput from "../../../../ship/components/UserAnswerInput/UserAnswerInput";
-import AnswerButtonBox from "../../components/AnswerButtonsBox/AnswerButtonBox";
-import {useVocabularyContext} from "../../context/VocabularyContext";
-import VocabularyResults from "../VocabularyResults";
+import INoun from "../models/INoun";
+import Progress from "../../../ship/components/Progress/Progress";
+import WordBox from "../../../lectures/components/WordBox/WordBox";
+import UserAnswerInput from "../../../ship/components/UserAnswerInput/UserAnswerInput";
+import AnswerButtonBox from "../../../lectures/components/AnswerButtonsBox/AnswerButtonBox";
+import {useVocabularyContext} from "../../../lectures/context/LecturesContext";
+import LectureResults from "../../../lectures/views/LectureResults";
 
-const VocabularyNounsQuiz: FC<TVocabularyNounsQuiz> = (
+const NounsQuizView: FC<TNounsQuizView> = (
     {
         lectureIndex,
         nouns
@@ -46,7 +46,7 @@ const VocabularyNounsQuiz: FC<TVocabularyNounsQuiz> = (
     }, [])
 
     if (progress >= 100) {
-        return <VocabularyResults lectureIndex={lectureIndex}/>
+        return <LectureResults lectureIndex={lectureIndex}/>
     }
 
     return (
@@ -74,9 +74,9 @@ const VocabularyNounsQuiz: FC<TVocabularyNounsQuiz> = (
     );
 };
 
-type TVocabularyNounsQuiz = {
+type TNounsQuizView = {
     nouns: Array<INoun>
     lectureIndex: number
 }
 
-export default VocabularyNounsQuiz;
+export default NounsQuizView;

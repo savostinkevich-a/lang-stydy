@@ -1,14 +1,13 @@
 import React, {FC, useEffect, useState} from 'react';
-import INoun, {WordGender} from "../../models/INoun";
-import Progress from "../../../../ship/components/Progress/Progress";
-import WordBox from "../../components/WordBox/WordBox";
-import UserAnswerInput from "../../../../ship/components/UserAnswerInput/UserAnswerInput";
-import AnswerButtonBox from "../../components/AnswerButtonsBox/AnswerButtonBox";
-import {useVocabularyContext} from "../../context/VocabularyContext";
-import VocabularyResults from "../VocabularyResults";
-import IAdjective from "../../models/IAdjective";
+import Progress from "../../../ship/components/Progress/Progress";
+import WordBox from "../../../lectures/components/WordBox/WordBox";
+import UserAnswerInput from "../../../ship/components/UserAnswerInput/UserAnswerInput";
+import AnswerButtonBox from "../../../lectures/components/AnswerButtonsBox/AnswerButtonBox";
+import {useVocabularyContext} from "../../../lectures/context/LecturesContext";
+import LectureResults from "../../../lectures/views/LectureResults";
+import IAdjective from "../models/IAdjective";
 
-const VocabularyAdjectivesQuiz: FC<TVocabularyAdjectivesQuiz> = (
+const AdjectivesQuizView: FC<TAdjectivesQuizView> = (
     {
         lectureIndex,
         adjectives
@@ -51,7 +50,7 @@ const VocabularyAdjectivesQuiz: FC<TVocabularyAdjectivesQuiz> = (
     useEffect(getRandomAdjective, [])
 
     if (progress >= 100) {
-        return <VocabularyResults lectureIndex={lectureIndex}/>
+        return <LectureResults lectureIndex={lectureIndex}/>
     }
 
 
@@ -81,9 +80,9 @@ const VocabularyAdjectivesQuiz: FC<TVocabularyAdjectivesQuiz> = (
     );
 };
 
-type TVocabularyAdjectivesQuiz = {
+type TAdjectivesQuizView = {
     adjectives: Array<IAdjective>
     lectureIndex: number
 }
 
-export default VocabularyAdjectivesQuiz;
+export default AdjectivesQuizView;

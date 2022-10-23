@@ -1,10 +1,10 @@
 import React, {FC, useEffect, useState} from 'react';
-import INoun from "../../models/INoun";
-import WordBox from "../../components/WordBox/WordBox";
-import AnswerButtonBox from "../../components/AnswerButtonsBox/AnswerButtonBox";
-import {useVocabularyContext} from "../../context/VocabularyContext";
+import INoun from "../models/INoun";
+import WordBox from "../../../lectures/components/WordBox/WordBox";
+import AnswerButtonBox from "../../../lectures/components/AnswerButtonsBox/AnswerButtonBox";
+import {useVocabularyContext} from "../../../lectures/context/LecturesContext";
 
-const VocabularyNounsQuiz: FC<TVocabularyNounsQuiz> = (
+const NounsLearnView: FC<TNounsLearnView> = (
     {
         nouns
     }) => {
@@ -44,8 +44,8 @@ const VocabularyNounsQuiz: FC<TVocabularyNounsQuiz> = (
     );
 };
 
-type TVocabularyNounsQuiz = {
+type TNounsLearnView = {
     nouns: Array<INoun>
 }
 
-export default VocabularyNounsQuiz;
+export default NounsLearnView;

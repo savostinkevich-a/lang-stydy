@@ -1,8 +1,8 @@
 import React, {FC} from 'react';
 import {List, ListItem, Typography} from "@mui/material";
-import CardLink from "../../../ship/components/CardLink/CardLink";
+import CardLink from "../../ship/components/CardLink/CardLink";
 
-const VocabularyMode: FC<TVocabularyMode> = ({setMode}) => {
+const LectureMode: FC<TVocabularyMode> = ({setMode}) => {
     return (
         <List>
             <ListItem onClick={() => setMode("practice")}>
@@ -23,4 +23,4 @@ type TVocabularyMode = {
     setMode: (mode: "learn" | "practice" | null) => void
 }
 
-export default VocabularyMode;
+export default LectureMode;

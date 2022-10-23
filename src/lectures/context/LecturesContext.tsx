@@ -1,9 +1,9 @@
 import {createContext, Dispatch, FC, ReactElement, SetStateAction, useContext, useState} from "react";
 import IAnswer from "../models/IAnswer";
 
-const VocabularyContext = createContext<TVocabularyContext>({} as TVocabularyContext)
+const LecturesContext = createContext<TLecturesContext>({} as TLecturesContext)
 
-const VocabularyProvider: FC<VocabularyProvider> = (
+const LecturesProvider: FC<TLecturesProvider> = (
     {
         children
     }) => {
@@ -43,7 +43,7 @@ const VocabularyProvider: FC<VocabularyProvider> = (
 
     const updateProgress = () => setProgress(prev => prev + 10)
 
-    const values: TVocabularyContext = {
+    const values: TLecturesContext = {
         progress,
         isAnswered,
         isCorrect,
@@ -57,15 +57,15 @@ const VocabularyProvider: FC<VocabularyProvider> = (
     }
 
     return (
-        <VocabularyContext.Provider value={values}>
+        <LecturesContext.Provider value={values}>
             {children}
-        </VocabularyContext.Provider>
+        </LecturesContext.Provider>
     )
 }
 
-export const useVocabularyContext = () => useContext(VocabularyContext)
+export const useVocabularyContext = () => useContext(LecturesContext)
 
-type TVocabularyContext = {
+type TLecturesContext = {
     progress: number
     isAnswered: boolean,
     isCorrect: boolean,
@@ -78,8 +78,8 @@ type TVocabularyContext = {
     clearAnswer: () => void
 }
 
-type VocabularyProvider = {
+type TLecturesProvider = {
     children: ReactElement | Array<ReactElement>
 }
 
-export default VocabularyProvider
+export default LecturesProvider
