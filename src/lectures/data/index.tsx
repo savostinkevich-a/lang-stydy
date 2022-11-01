@@ -12,6 +12,11 @@ const lectures: TLecturesData = {
         adjectives: adjectives[2],
         nouns: nouns[2],
         verbs: verbs[2]
+    },
+    3: {
+        adjectives: [],
+        nouns: nouns[3],
+        verbs: verbs[3]
     }
 }
 

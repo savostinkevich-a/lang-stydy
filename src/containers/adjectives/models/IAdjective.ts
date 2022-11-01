@@ -12,7 +12,7 @@ interface IAdjective {
         pl: string
         ru: string
     },
-    plural: {
+    plural?: {
         pl: string,
         ru: string
     }

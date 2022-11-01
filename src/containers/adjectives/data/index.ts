@@ -69,15 +69,15 @@ const adjectives: TAdjectivesData = {
                 ru: "толстый"
             },
             feminine: {
-                pl: "gruby",
+                pl: "gruba",
                 ru: "толстая"
             },
             neuter: {
-                pl: "gruby",
+                pl: "grube",
                 ru: "толстое"
             },
             plural: {
-                pl: "gruby",
+                pl: "grubi",
                 ru: "толстые"
             }
         },
@@ -307,7 +307,328 @@ const adjectives: TAdjectivesData = {
                 pl: "zdrowi",
                 ru: "здоровые"
             }
-        },]
+        },
+    ],
+    3: [
+        {
+            masculine: {
+                pl: "inny",
+                ru: "другой"
+            },
+            feminine: {
+                pl: "inny",
+                ru: "другая"
+            },
+            neuter: {
+                pl: "inne",
+                ru: "другое"
+            },
+            plural: {
+                pl: "inni",
+                ru: "другие"
+            }
+        },
+        {
+            masculine: {
+                pl: "cały",
+                ru: "целый"
+            },
+            feminine: {
+                pl: "cała",
+                ru: "целая"
+            },
+            neuter: {
+                pl: "całe",
+                ru: "целое"
+            },
+            plural: {
+                pl: "cali",
+                ru: "целые"
+            }
+        },
+        {
+            masculine: {
+                pl: "różny",
+                ru: "разный"
+            },
+            feminine: {
+                pl: "różna",
+                ru: "разная"
+            },
+            neuter: {
+                pl: "różne",
+                ru: "разное"
+            },
+            plural: {
+                pl: "różni",
+                ru: "разные"
+            }
+        },
+        {
+            masculine: {
+                pl: "każdy",
+                ru: "каждый"
+            },
+            feminine: {
+                pl: "każda",
+                ru: "каждая"
+            },
+            neuter: {
+                pl: "każde",
+                ru: "каждое"
+            },
+            plural: {
+                pl: "każde",
+                ru: "каждые"
+            },
+        },
+        {
+            antonym: "mały",
+            masculine: {
+                pl: "wielki",
+                ru: "большой"
+            },
+            feminine: {
+                pl: "wielka",
+                ru: "большая"
+            },
+            neuter: {
+                pl: "wielkie",
+                ru: "большое"
+            },
+            plural: {
+                pl: "wielcy",
+                ru: "большие"
+            }
+        },
+        {
+            antonym: "wielki",
+            masculine: {
+                pl: "wielki",
+                ru: "маленький"
+            },
+            feminine: {
+                pl: "mała",
+                ru: "маленькая"
+            },
+            neuter: {
+                pl: "małe",
+                ru: "маленькое"
+            },
+            plural: {
+                pl: "mali",
+                ru: "маленькие"
+            }
+        },
+        {
+            antonym: "prawy",
+            masculine: {
+                pl: "lewy",
+                ru: "левый"
+            },
+            feminine: {
+                pl: "lewa",
+                ru: "левая"
+            },
+            neuter: {
+                pl: "lewe",
+                ru: "левое"
+            },
+            plural: {
+                pl: "lewe",
+                ru: "левые"
+            }
+        },
+        {
+            antonym: "lewy",
+            masculine: {
+                pl: "prawy",
+                ru: "правый"
+            },
+            feminine: {
+                pl: "prawa",
+                ru: "правая"
+            },
+            neuter: {
+                pl: "prawe",
+                ru: "правое"
+            },
+            plural: {
+                pl: "prawi",
+                ru: "правые"
+            }
+        },
+        {
+            masculine: {
+                pl: "zwykły",
+                ru: "обычный"
+            },
+            feminine: {
+                pl: "zwykła",
+                ru: "обычная"
+            },
+            neuter: {
+                pl: "zwykłe",
+                ru: "обычное"
+            },
+            plural: {
+                pl: "zwykli",
+                ru: "обычные"
+            }
+        },
+        {
+            antonym: "krótki",
+            masculine: {
+                pl: "długi",
+                ru: "длинный"
+            },
+            feminine: {
+                pl: "długa",
+                ru: "длинная"
+            },
+            neuter: {
+                pl: "długie",
+                ru: "длинное"
+            },
+            plural: {
+                pl: "długie",
+                ru: "длинные"
+            }
+        },
+        {
+            antonym: "długi",
+            masculine: {
+                pl: "krótki",
+                ru: "короткий"
+            },
+            feminine: {
+                pl: "krótka",
+                ru: "короткая"
+            },
+            neuter: {
+                pl: "krótkie",
+                ru: "короткое"
+            },
+            plural: {
+                pl: "krótcy",
+                ru: "короткие"
+            }
+        },
+        {
+            antonym: "wolny",
+            masculine: {
+                pl: "szybki",
+                ru: "быстрый"
+            },
+            feminine: {
+                pl: "szybka",
+                ru: "быстрая"
+            },
+            neuter: {
+                pl: "szybkie",
+                ru: "быстрое"
+            },
+            plural: {
+                pl: "szybcy",
+                ru: "быстрые"
+            }
+        },
+        {
+            antonym: "szybki",
+            masculine: {
+                pl: "wolny",
+                ru: "медленный"
+            },
+            feminine: {
+                pl: "wolna",
+                ru: "медленная"
+            },
+            neuter: {
+                pl: "wolne",
+                ru: "медленное"
+            },
+            plural: {
+                pl: "wolni",
+                ru: "медленные"
+            }
+        },
+        {
+            antonym: "ciężki",
+            masculine: {
+                pl: "lekki",
+                ru: "легкие"
+            },
+            feminine: {
+                pl: "lekka",
+                ru: "лекгая"
+            },
+            neuter: {
+                pl: "lekkie",
+                ru: "легкое"
+            },
+            plural: {
+                pl: "leccy",
+                ru: "легкие"
+            }
+        },
+        {
+            antonym: "lekki",
+            masculine: {
+                pl: "ciężki",
+                ru: "легкие"
+            },
+            feminine: {
+                pl: "ciężka",
+                ru: "лекгая"
+            },
+            neuter: {
+                pl: "ciężkie",
+                ru: "легкое"
+            },
+            plural: {
+                pl: "ciężcy",
+                ru: "легкие"
+            }
+        },
+        {
+            antonym: "twardy",
+            masculine: {
+                pl: "miękki",
+                ru: "мягкий"
+            },
+            feminine: {
+                pl: "miękka",
+                ru: "мягкая"
+            },
+            neuter: {
+                pl: "miękkie",
+                ru: "мягкое"
+            },
+            plural: {
+                pl: "miękcy",
+                ru: "мягкие"
+            }
+        },
+        {
+            antonym: "miękki",
+            masculine: {
+                pl: "twardy",
+                ru: "твердый"
+            },
+            feminine: {
+                pl: "twarda",
+                ru: "твердая"
+            },
+            neuter: {
+                pl: "twarde",
+                ru: "твердое"
+            },
+            plural: {
+                pl: "twardzi",
+                ru: "твердые"
+            }
+        },
+    ]
 }
 
 export default adjectives
