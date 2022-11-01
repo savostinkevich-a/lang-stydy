@@ -149,11 +149,6 @@ const nouns: TNounsData = {
             gender: WordGender.MASCULINE
         },
         {
-            pl: "architektka",
-            ru: "архитектор (женщина)",
-            gender: WordGender.FEMININE
-        },
-        {
             pl: "nauczyciel",
             ru: "учитель",
             gender: WordGender.MASCULINE
