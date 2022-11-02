@@ -316,7 +316,7 @@ const adjectives: TAdjectivesData = {
                 ru: "другой"
             },
             feminine: {
-                pl: "inny",
+                pl: "inna",
                 ru: "другая"
             },
             neuter: {
@@ -404,7 +404,7 @@ const adjectives: TAdjectivesData = {
         {
             antonym: "wielki",
             masculine: {
-                pl: "wielki",
+                pl: "mały",
                 ru: "маленький"
             },
             feminine: {
@@ -575,19 +575,19 @@ const adjectives: TAdjectivesData = {
             antonym: "lekki",
             masculine: {
                 pl: "ciężki",
-                ru: "легкие"
+                ru: "тяжелый"
             },
             feminine: {
                 pl: "ciężka",
-                ru: "лекгая"
+                ru: "тяжелая"
             },
             neuter: {
                 pl: "ciężkie",
-                ru: "легкое"
+                ru: "тяжелое"
             },
             plural: {
                 pl: "ciężcy",
-                ru: "легкие"
+                ru: "тяжелые"
             }
         },
         {

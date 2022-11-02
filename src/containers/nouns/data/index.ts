@@ -145,7 +145,7 @@ const nouns: TNounsData = {
         },
         {
             pl: "architekt",
-            ru: "архитектор (мужчина)",
+            ru: "архитектор",
             gender: WordGender.MASCULINE
         },
         {
