@@ -7,12 +7,13 @@ import {Box, Button} from "@mui/material";
 import AdjectivesQuizView from "../../containers/adjectives/views/AdjectivesQuizView";
 import AdjectivesLearnView from "../../containers/adjectives/views/AdjectivesLearnView";
 import lectures from "../data";
+import AdjectivesTableView from "../../containers/adjectives/views/AdjectivesTableView";
 
 const LecturesAdjectivesPage = () => {
 
     const {lecture} = useParams()
     const currentLecture = lectures[Number(lecture)]
-    const [mode, setMode] = useState<"learn" | "practice" | null>(null)
+    const [mode, setMode] = useState<"learn" | "practice" | "table" | null>(null)
     const navigate = useNavigate()
 
     if (!currentLecture) {
@@ -42,6 +43,7 @@ const LecturesAdjectivesPage = () => {
                         />
                     }
                     {mode === "learn" && <AdjectivesLearnView adjectives={currentLecture.adjectives}/>}
+                    {mode === "table" && <AdjectivesTableView adjectives={currentLecture.adjectives}/>}
                 </>
             </VocabularyProvider>
         </AppLayout>

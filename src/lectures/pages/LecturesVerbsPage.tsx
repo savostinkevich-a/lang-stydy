@@ -6,12 +6,13 @@ import LectureMode from "../views/LectureMode";
 import {Box, Button} from "@mui/material";
 import VerbsQuizView from "../../containers/verbs/views/VerbsQuizView";
 import lectures from "../data";
+import VerbsTableView from "../../containers/verbs/views/VerbsTableView";
 
 const LecturesVerbsPage = () => {
 
     const {lecture} = useParams()
     const currentLecture = lectures[Number(lecture)]
-    const [mode, setMode] = useState<"learn" | "practice" | null>(null)
+    const [mode, setMode] = useState<"learn" | "practice" | "table" | null>(null)
     const navigate = useNavigate()
 
     if (!currentLecture) {
@@ -35,6 +36,7 @@ const LecturesVerbsPage = () => {
                 <>
                     {mode === null && <LectureMode setMode={setMode}/>}
                     {mode === "practice" && <VerbsQuizView verbs={currentLecture.verbs} lectureIndex={Number(lecture)}/>}
+                    {mode === "table" && <VerbsTableView verbs={currentLecture.verbs} lectureIndex={Number(lecture)}/>}
                 </>
             </VocabularyProvider>
         </AppLayout>

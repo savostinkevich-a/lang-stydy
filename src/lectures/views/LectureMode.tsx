@@ -15,12 +15,17 @@ const LectureMode: FC<TVocabularyMode> = ({setMode}) => {
                     <Typography variant="button">Uczyć się</Typography>
                 </CardLink>
             </ListItem>
+            <ListItem>
+                <CardLink onClick={() => setMode("table")}>
+                    <Typography variant="button">Tablica</Typography>
+                </CardLink>
+            </ListItem>
         </List>
     );
 };
 
 type TVocabularyMode = {
-    setMode: (mode: "learn" | "practice" | null) => void
+    setMode: (mode: "learn" | "practice" |"table" | null) => void
 }
 
 export default LectureMode;

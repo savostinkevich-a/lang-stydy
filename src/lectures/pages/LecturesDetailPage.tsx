@@ -31,7 +31,7 @@ const LecturesDetailPage = () => {
             </Box>
             <List>
                 {
-                    currentLecture.nouns.length &&
+                    currentLecture.nouns.length ?
                     <ListItem onClick={() => navigate(`/${lecture}/nouns`)}>
                         <CardLink>
                             <Typography variant="button">Rzeczowniki</Typography>
@@ -39,23 +39,23 @@ const LecturesDetailPage = () => {
                                 {currentLecture.nouns.map(noun => noun.pl).join(", ")}
                             </Typography>
                         </CardLink>
-                    </ListItem>
+                    </ListItem> : ""
                 }
 
                 {
-                    currentLecture.adjectives.length &&
+                    currentLecture.adjectives.length ?
                     <ListItem onClick={() => navigate(`/${lecture}/adjectives`)}>
                         <CardLink>
-                            <Typography variant="button">Przymiotniki</Typography>
+                            <Typography variant="button">Przymiotniki i zaimki</Typography>
                             <Typography variant="body2" color="text.secondary">
                                 {currentLecture.adjectives.map(adjective => adjective.masculine.pl).join(", ")}
                             </Typography>
                         </CardLink>
-                    </ListItem>
+                    </ListItem> : ""
                 }
 
                 {
-                    currentLecture.verbs.length &&
+                    currentLecture.verbs.length ?
                     <ListItem onClick={() => navigate(`/${lecture}/verbs`)}>
                         <CardLink>
                             <Typography variant="button">Czasowniki</Typography>
@@ -63,7 +63,7 @@ const LecturesDetailPage = () => {
                                 {currentLecture.verbs.map(verb => verb.infinitive).join(", ")}
                             </Typography>
                         </CardLink>
-                    </ListItem>
+                    </ListItem> : ""
                 }
 
             </List>

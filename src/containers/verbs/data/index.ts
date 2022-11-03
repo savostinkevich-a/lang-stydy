@@ -946,7 +946,7 @@ const verbs: TVerbsData = {
                 },
                 {
                     pronoun: "ty",
-                    sentence: "Ale ... koncerty... więc przezwyciężysz to. [ty]"
+                    sentence: "Ale ... koncerty. Więc przezwyciężysz to. [ty]"
                 },
                 {
                     pronoun: "on/ona/ono",
@@ -1033,7 +1033,7 @@ const verbs: TVerbsData = {
                 },
                 {
                     pronoun: "ty",
-                    sentence: "Widzisz ten mur z kamieni? [ty]"
+                    sentence: "... ten mur z kamieni? [ty]"
                 },
                 {
                     pronoun: "on/ona/ono",

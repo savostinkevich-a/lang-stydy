@@ -31,6 +31,8 @@ const WordBox: FC<TWordBox> = (
                 sx={{
                     mr: 2,
                     ml: 2,
+                    p: 2,
+                    textAlign: "center",
                     minHeight: 150,
                     display: "flex",
                     flexDirection: "column",

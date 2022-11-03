@@ -293,6 +293,178 @@ const nouns: TNounsData = {
             ru: "вещь",
             gender: WordGender.FEMININE
         },
+    ],
+    4: [
+        {
+            pl: "córka",
+            ru: "дочка",
+            gender: WordGender.FEMININE
+        },
+        {
+            pl: "syn",
+            ru: "сын",
+            gender: WordGender.MASCULINE
+        },
+        {
+            pl: "dzieci",
+            ru: "дети",
+            gender: WordGender.PLURAL
+        },
+        {
+            pl: "siostra",
+            ru: "сестра",
+            gender: WordGender.FEMININE
+        },
+        {
+            pl: "brat",
+            ru: "брат",
+            gender: WordGender.MASCULINE
+        },
+        {
+            pl: "rodzeństwo",
+            ru: "братья и сестры",
+            gender: WordGender.PLURAL
+        },
+        {
+            pl: "matka",
+            ru: "мама",
+            gender: WordGender.FEMININE
+        },
+        {
+            pl: "ojciec",
+            ru: "отец",
+            gender: WordGender.MASCULINE
+        },
+        {
+            pl: "rodzice",
+            ru: "родители",
+            gender: WordGender.PLURAL
+        },
+        {
+            pl: "babcia",
+            ru: "бабушка",
+            gender: WordGender.FEMININE
+        },
+        {
+            pl: "dziadek",
+            ru: "дедушка",
+            gender: WordGender.FEMININE
+        },
+        {
+            pl: "dziadkowie",
+            ru: "бабушка и дедушка",
+            gender: WordGender.PLURAL
+        },
+        {
+            pl: "mąż",
+            ru: "муж",
+            gender: WordGender.MASCULINE
+        },
+        {
+            pl: "żona",
+            ru: "жена",
+            gender: WordGender.FEMININE
+        },
+        {
+            pl: "mąż",
+            ru: "муж",
+            gender: WordGender.MASCULINE
+        },
+        {
+            pl: "małżeństwo",
+            ru: "брак",
+            gender: WordGender.NEUTER
+        },
+        {
+            pl: "rodzina",
+            ru: "семья",
+            gender: WordGender.FEMININE
+        },
+        {
+            pl: "głowa",
+            ru: "голова",
+            gender: WordGender.FEMININE
+        },
+        {
+            pl: "noga",
+            ru: "нога",
+            gender: WordGender.FEMININE
+        },
+        {
+            pl: "oczy",
+            ru: "глаза",
+            gender: WordGender.PLURAL
+        },
+        {
+            pl: "głos",
+            ru: "голос",
+            gender: WordGender.MASCULINE
+        },
+        {
+            pl: "miasto",
+            ru: "город",
+            gender: WordGender.MASCULINE
+        },
+        {
+            pl: "krai",
+            ru: "страна",
+            gender: WordGender.MASCULINE
+        },
+        {
+            pl: "plac",
+            ru: "площадь",
+            gender: WordGender.MASCULINE
+        },
+        {
+            pl: "miejsce",
+            ru: "место",
+            gender: WordGender.NEUTER
+        },
+        {
+            pl: "świat",
+            ru: "мир",
+            gender: WordGender.MASCULINE
+        },
+        {
+            pl: "pieniądze",
+            ru: "деньги",
+            gender: WordGender.PLURAL
+        },
+        {
+            pl: "krewny",
+            ru: "родственник",
+            gender: WordGender.PLURAL
+        },
+        {
+            pl: "dziewczynka",
+            ru: "девочка",
+            gender: WordGender.FEMININE
+        },
+        {
+            pl: "chłopiec",
+            ru: "мальчик",
+            gender: WordGender.MASCULINE
+        },
+        {
+            pl: "koleś",
+            ru: "чел, чувак",
+            gender: WordGender.MASCULINE
+        },
+        {
+            pl: "człowiek",
+            ru: "человек",
+            gender: WordGender.MASCULINE
+        },
+        {
+            pl: "przyjaciel",
+            ru: "друг",
+            gender: WordGender.MASCULINE
+        },
+        {
+            pl: "przyjaciółka",
+            ru: "подруга",
+            gender: WordGender.FEMININE
+        },
     ]
 }
 

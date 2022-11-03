@@ -3,7 +3,7 @@ import {useNavigate, useParams} from "react-router-dom";
 import AppLayout from "../../ship/layout/AppLayout";
 import NounsQuizView from "../../containers/nouns/views/NounsQuizView";
 import VocabularyProvider from "../context/LecturesContext";
-import VocabularyNounsLearn from "../../containers/nouns/views/NounsLearnView";
+import NounsLearnView from "../../containers/nouns/views/NounsLearnView";
 import LectureMode from "../views/LectureMode";
 import {Box, Button} from "@mui/material";
 import lectures from "../data";
@@ -13,7 +13,7 @@ const LecturesNounsPage = () => {
     const {lecture} = useParams()
     const currentLecture = lectures[Number(lecture)]
 
-    const [mode, setMode] = useState<"learn" | "practice" | null>(null)
+    const [mode, setMode] = useState<"learn" | "practice" | "table" | null>(null)
     const navigate = useNavigate()
 
     if (!currentLecture) {
@@ -38,7 +38,8 @@ const LecturesNounsPage = () => {
                 <>
                     {mode === null && <LectureMode setMode={setMode}/>}
                     {mode === "practice" && <NounsQuizView nouns={currentLecture.nouns} lectureIndex={Number(lecture)}/>}
-                    {mode === "learn" && <VocabularyNounsLearn nouns={currentLecture.nouns}/>}
+                    {mode === "learn" && <NounsLearnView nouns={currentLecture.nouns}/>}
+                    {mode === "table" && <NounsLearnView nouns={currentLecture.nouns}/>}
                 </>
             </VocabularyProvider>
         </AppLayout>
