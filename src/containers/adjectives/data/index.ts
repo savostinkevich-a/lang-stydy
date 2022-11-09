@@ -628,6 +628,142 @@ const adjectives: TAdjectivesData = {
                 ru: "твердые"
             }
         },
+    ],
+    4: [
+        {
+            antonym: "martwy",
+            masculine: {
+                pl: "żywy",
+                ru: "живой"
+            },
+            feminine: {
+                pl: "żywa",
+                ru: "живая"
+            },
+            neuter: {
+                pl: "żywe",
+                ru: "живое"
+            },
+            plural: {
+                pl: "żywi",
+                ru: "живые"
+            }
+        },
+        {
+            antonym: "żywy",
+            masculine: {
+                pl: "martwy",
+                ru: "мертвый"
+            },
+            feminine: {
+                pl: "martwa",
+                ru: "мертвая"
+            },
+            neuter: {
+                pl: "martwe",
+                ru: "мертвое"
+            },
+            plural: {
+                pl: "martwi",
+                ru: "мертвые"
+            }
+        },
+        {
+            antonym: "pusty",
+            masculine: {
+                pl: "pełny",
+                ru: "полный"
+            },
+            feminine: {
+                pl: "pełna",
+                ru: "полная"
+            },
+            neuter: {
+                pl: "pełne",
+                ru: "полное"
+            },
+            plural: {
+                pl: "pełne",
+                ru: "полные"
+            }
+        },
+        {
+            antonym: "pełny",
+            masculine: {
+                pl: "pusty",
+                ru: "пустой"
+            },
+            feminine: {
+                pl: "pusta",
+                ru: "пустая"
+            },
+            neuter: {
+                pl: "puste",
+                ru: "пустое"
+            },
+            plural: {
+                pl: "puste",
+                ru: "пустые"
+            }
+        },
+        {
+            antonym: "złożony",
+            masculine: {
+                pl: "prosty",
+                ru: "простой"
+            },
+            feminine: {
+                pl: "prosta",
+                ru: "простая"
+            },
+            neuter: {
+                pl: "proste",
+                ru: "простое"
+            },
+            plural: {
+                pl: "proste",
+                ru: "простые"
+            }
+        },
+        {
+            antonym: "prosty",
+            masculine: {
+                pl: "złożony",
+                ru: "сложный"
+            },
+            feminine: {
+                pl: "złożona",
+                ru: "сложная"
+            },
+            neuter: {
+                pl: "złożone",
+                ru: "сложное"
+            },
+            plural: {
+                pl: "złożone",
+                ru: "сложные"
+            }
+        },
+        {
+            antonym: "prosty",
+            masculine: {
+                pl: "złożony",
+                ru: "сложный"
+            },
+            feminine: {
+                pl: "złożona",
+                ru: "сложная"
+            },
+            neuter: {
+                pl: "złożone",
+                ru: "сложное"
+            },
+            plural: {
+                pl: "złożone",
+                ru: "сложные"
+            }
+        },
+
     ]
 }
 

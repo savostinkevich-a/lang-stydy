@@ -465,7 +465,14 @@ const nouns: TNounsData = {
             ru: "подруга",
             gender: WordGender.FEMININE
         },
-    ]
+    ],
+    5: [
+        {
+            pl: "córka",
+            ru: "дочка",
+            gender: WordGender.FEMININE
+        },
+    ],
 }
 
 export default nouns

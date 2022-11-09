@@ -1093,6 +1093,651 @@ const verbs: TVerbsData = {
                 }
             ]
         },
+    ],
+    4: [
+        {
+            infinitive: "słyszeć",
+            ja: "słyszę",
+            ty: "słyszysz",
+            "on/ona/ono": "słyszy",
+            my: "słyszymy",
+            wy: "słyszycie",
+            "oni/one": "słyszą",
+            exercises: [
+                {
+                    pronoun: "ja",
+                    sentence: "Teraz ..., że zmieniłeś zdanie. [ja]"
+                },
+                {
+                    pronoun: "ja",
+                    sentence: "Takie historyjki ... pięć razy dziennie. [ja]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "Rodney, ... mnie? [ty]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "Jeśli ktoś mnie ..., odpowiedzcie."
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "W dyskotece nikt mnie nie ..."
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Ale potem, ... dźwięk. [my]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Obecnie w radiu ... prawie wszystko. [my]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "Jak ..., muszę rozwiązać problem. [wy]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "Jeśli mnie ..., odezwijcie się. [wy]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Kiedy ... ostry dźwięk, przewracają się. [oni]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Petrodesie, zmarli ... nasze myśli. [oni]"
+                },
+            ]
+        },
+        {
+            infinitive: "słuchać",
+            ja: "słucham",
+            ty: "słuchasz",
+            "on/ona/ono": "słucha",
+            my: "słuchamy",
+            wy: "słuchacie",
+            "oni/one": "słuchają",
+            exercises: [
+                {
+                    pronoun: "ja",
+                    sentence: "Mimo takich opinii ... wszystkich krytyk. [ja]"
+                },
+                {
+                    pronoun: "ja",
+                    sentence: "Kiedy ... twojej mamy, słyszę jego śmiech. [ja]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "Valera, dlaczego ... tego pajaca? [ty]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "Potem ci mówi czego dokładnie ... [ty]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "Kiedy mówi, każdy ... go."
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "Twój ojciec już mnie nie ... [on]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Mamy brzydkie ubrania i ... złej muzyki. [my]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "W tym miejscu ... moich nagrań. [my]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "Jeśli tego ..., jesteście ruchem oporu. [wy]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "Jesteście tam gdzieś ukryci i ... tego. [wy]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Ludzie nie ... muzyki dla ironii. [oni]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Oni oglądają telewizję, ... radia. [oni]"
+                },
+            ]
+        },
+        {
+            infinitive: "czuć",
+            ja: "czuję",
+            ty: "czujesz",
+            "on/ona/ono": "czuje",
+            my: "czujemy",
+            wy: "czujecie",
+            "oni/one": "czują",
+            exercises: [
+                {
+                    pronoun: "ja",
+                    sentence: "Nagle ... się naprawdę dobrze o jutrze. [ja]"
+                },
+                {
+                    pronoun: "ja",
+                    sentence: "To będzie dobry występ, ... to. [ja]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "Nieważne jak się ..., Henry. [ty]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "Jak się ... w tym wspaniałym dniu? [ty]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "Moreno ... presję. [on]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "Panna Trixie nie ... się dobrze. [ona]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Widzisz, ... się tak zagubieni. [my]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Szczerze, ... dyskomfort pijąc ze starszym oficerem. [my]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "To co ... to magia aktywująca medalion. [wy]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "Wszystko co ..., jest ważne. [wy]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Nasi partnerzy ... potencjał tej produkcji. [oni]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Ale jeśli dźgnąć ich widelcem to ... [oni]"
+                },
+            ]
+        },
+        {
+            infinitive: "myśleć",
+            ja: "myślę",
+            ty: "myślisz",
+            "on/ona/ono": "myśli",
+            my: "myślimy",
+            wy: "myślicie",
+            "oni/one": "myślą",
+            exercises: [
+                {
+                    pronoun: "ja",
+                    sentence: "Ok, ... że potrzebujemy nowej historyjki. [ja]"
+                },
+                {
+                    pronoun: "ja",
+                    sentence: "Mogę teraz powiedzieć o czym ... [ja]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "MacGyver, wiem o czym ... [ty]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "Teraz ... jak przywódca swoich ludzi. [ty]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "Oczywiście Hex tak naprawdę nie ... [on]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "On nie umrze, on ... [on]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Zupełnie jakby wiedzieli, o czym ... [my]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Szefie, ... o podłożeniu telefonu. [my]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "To nie jest tak jak ... [wy]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "Może ... o grubym gumowym kombinezonie. [wy]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Małpy nie ... w kategoriach rodzaju. [one]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Jeśli ... o tym poważnie, znajdą sposób. [oni]"
+                },
+            ]
+        },
+    ],
+    5: [
+        {
+            infinitive: "jeść",
+            ja: "jem",
+            ty: "jesz",
+            "on/ona/ono": "je",
+            my: "jemy",
+            wy: "jecie",
+            "oni/one": "jedzą",
+            exercises: [
+                {
+                    pronoun: "ja",
+                    sentence: "... chleb. [ja]"
+                },
+                {
+                    pronoun: "ja",
+                    sentence: "... mięso. [ja]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "Co ... ? [ty]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "... kurczaka. [ona]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "... frytki. [on]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "... ryby. [my]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "... makaron. [my]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "... zupę. [wy]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "... bułkę. [wy]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "... masło. [oni]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "... jabłko. [oni]"
+                },
+            ]
+        },
+        {
+            infinitive: "wiedzieć",
+            ja: "wiem",
+            ty: "wiesz",
+            "on/ona/ono": "wie",
+            my: "wiemy",
+            wy: "wiecie",
+            "oni/one": "wiedzą",
+            exercises: [
+                {
+                    pronoun: "ja",
+                    sentence: "Nie ..., gdzie będziesz teraz spał. [ja]"
+                },
+                {
+                    pronoun: "ja",
+                    sentence: "Nie ..., ale możemy spróbować. [ja]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "Oczywiście ..., czym jest źródło. [ty]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "Nie ... gdzie mogę go znaleźć. [ty]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "Ona nie ... jak opowiadać historie. [ona]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "Niewiele osób ..., co czujesz. [on]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Dobrze, ... jak weszli tutaj. [my]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Jednak wiemy, że jesteśmy przeklęci. [my]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "Panie, ... gdzie nas znaleźć. [wy]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "Jak ... dzisiaj są urodziny papieża. [wy]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Byli częścią operacji i sporo ... [oni]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Nie ..., co to Starbucks. [oni]"
+                },
+            ]
+        },
+        {
+            infinitive: "chodzić",
+            ja: "chodzę",
+            ty: "chodzisz",
+            "on/ona/ono": "chodzi",
+            my: "chodzimy",
+            wy: "chodzicie",
+            "oni/one": "chodzą",
+            exercises: [
+                {
+                    pronoun: "ja",
+                    sentence: "Cały czas ... tam z przyjaciółmi. [ja]"
+                },
+                {
+                    pronoun: "ja",
+                    sentence: "Raz w miesiącu ... do fryzjera. [ja]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "Nie narzekam, ale ... za szybko. [ty]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "Ty chyba nie ... do klubów. [ty]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "Codziennie ... na stacje szukając mordercy. [ona]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "Cała banda kochasiów ... do kościoła."
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Co niedziela ... do moich rodziców. [my]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Dlaczego ..., a nie siedzimy. [my]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "Gdzie jeszcze ... poza domem i szkołą? [wy]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "Ostatnio ... na dużo kursów dla par. [wy]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Tacy przyjaciele nie ... pod rękę. [oni]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Dzieci ... do ogrodu i grać. [oni]"
+                },
+            ]
+        },
+        {
+            infinitive: "chcieć",
+            ja: "chcę",
+            ty: "chcesz",
+            "on/ona/ono": "chce",
+            my: "chcemy",
+            wy: "chcecie",
+            "oni/one": "chcą",
+            exercises: [
+                {
+                    pronoun: "ja",
+                    sentence: "Przypadkiem uruchomiłam alarm, ... odwołać. [ja]"
+                },
+                {
+                    pronoun: "ja",
+                    sentence: "Nie ... bohatera, ... męża. [ja]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "Więc ... dostać swój kawałek ciasta. [ty]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "Wypuść nas, a stanę, gdzie ... [ty]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "Cóż naprawdę nie ... otworzyć restaurację. [ona]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "Jimmy tez ... ci cos powiedziec."
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Jesteśmy wolni, jeżeli ... być. [my]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Ale teraz, ... być wybierającymi. [my]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "Jeśli ... pograć, dajcie znać. [wy]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "Jeśli ... mnie śledzić, śmiało. [wy]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Pytasz, co ..., i przynosisz im. [oni]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Niektórzy w tym domu ... spać. [oni]"
+                },
+            ]
+        },
+        {
+            infinitive: "pisać",
+            ja: "piszę",
+            ty: "piszesz",
+            "on/ona/ono": "pisze",
+            my: "piszemy",
+            wy: "piszecie",
+            "oni/one": "piszą",
+            exercises: [
+                {
+                    pronoun: "ja",
+                    sentence: "On nienawidzi kiedy do ciebie ... [ja]"
+                },
+                {
+                    pronoun: "ja",
+                    sentence: "Ale słuchaj, ... coś dla ciebie. [ja]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "Pomijając jakość ... tyle co autor. [ty]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "To jest fantastyczne, że ... [ty]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "Twój ojciec ..., że lubisz samotność. [ona]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "I stale coś ... w notatnikach. [on]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Kiedy ..., kodujemy nasze myśli. [my]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Jestem u koleżanki, ... referat. [my]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "Tu nie chodzi o żadną książkę, którą ... [wy]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "Ale czy nie ... do siebie? [wy]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Dlatego ... najlepsze piosenki o miłości. [oni]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Nie są tak zdrowe jak ... na opakowaniu. [oni]"
+                },
+            ]
+        },
+        {
+            infinitive: "móc",
+            ja: "mogę",
+            ty: "możesz",
+            "on/ona/ono": "może",
+            my: "możemy",
+            wy: "możecie",
+            "oni/one": "mogą",
+            exercises: [
+                {
+                    pronoun: "ja",
+                    sentence: "Nie ... tego naprawić. [ja]"
+                },
+                {
+                    pronoun: "ja",
+                    sentence: "Nie ... żyć wiedząc, że ... zginąć. [ja]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "Podobno ... rozmawiać z duszami zmarłych. [ty]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "Następnie ... usunąć resztki normalnej serwetki. [ty]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "Patrzcie, ... mówić prawdę. [co]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "Jednak tylko on ... podjąć decyzję. [on]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Razem ... ziścić nasze niemożliwe marzenie.[my]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Przynajmniej ... spróbować odnaleźć jego córkę. [my]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "Podobno ... ściągnąć z niej DNA. [wy]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "Na zdjęciu poniżej ... zobaczyć różnicę. [wy]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Sny ... być manifestacją naszej podświadomości.. [oni]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Deweloperzy ... korzystać z biblioteki do tworzenia złożonych eksploracji danych. [oni]"
+                },
+            ]
+        },
+        {
+            infinitive: "pracować",
+            ja: "pracuję",
+            ty: "pracujesz",
+            "on/ona/ono": "pracuje",
+            my: "pracujemy",
+            wy: "pracujecie",
+            "oni/one": "pracują",
+            exercises: [
+                {
+                    pronoun: "ja",
+                    sentence: "Jestem dobrą osobą i ciężko ... [ja]"
+                },
+                {
+                    pronoun: "ja",
+                    sentence: "A kiedy jestem zdenerwowana, ... [ja]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "Przecież ... w klinice kontroli urodzeń. [ty]"
+                },
+                {
+                    pronoun: "ty",
+                    sentence: "Słyszałem, że ... nad książką. [ty]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "Obecnie ... nad drugą książką poetycką. [ona]"
+                },
+                {
+                    pronoun: "on/ona/ono",
+                    sentence: "Zawiadomcie Philippe'a, że jutro ... [on]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Cały tydzień ... nad tymi zagrywkami. [my]"
+                },
+                {
+                    pronoun: "my",
+                    sentence: "Przez ich zaginięcie, ... sami. [my]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "Nie, ale wiem jak wy ... [wy]"
+                },
+                {
+                    pronoun: "wy",
+                    sentence: "Nie wiedziałam, że ... dzisiaj. [wy]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Niektórzy tutaj nie ... w banku. [oni]"
+                },
+                {
+                    pronoun: "oni/one",
+                    sentence: "Kobiety w mojej rodzinie nie ... [one]"
+                },
+            ]
+        },
     ]
 }
 
